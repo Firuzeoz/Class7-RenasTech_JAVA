@@ -14,6 +14,7 @@ System.out.println("Please enter first name: ");
 String FirstName=scan.next();
 System.out.print("Please enter the last name: ");
 String LastName=scan.next();
+System.out.println(" ");
 String changed=(FirstName.replace('a','x')+LastName.replace('e','a')).toUpperCase();
 System.out.println("The value of the changed is: "+changed);
 

@@ -7,7 +7,7 @@ public class Topic4_ArraysSort {
 
 
         int[] nums={56,32,34,90,-345,-12,-34};
-        Arrays.sort(nums); // Arrays.sort(the name of the array) will put tghe element in increasing order
+        Arrays.sort(nums); // Arrays.sort(the name of the array) will put the element in increasing order
         //and assign  .....      the original array
         // Arrays.sort() turning void means return
         System.out.println("The nums array now is: " +Arrays.toString(nums));
